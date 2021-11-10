@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node src/consumer.js"
+    "start": "node consumer.js"
   },
   "author": "",
   "license": "ISC",
