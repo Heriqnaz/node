@@ -1,12 +1,11 @@
-FROM node:14.15.4
+FROM node:10.9-alpine
 
-# Create a directory (to house our source files) and navigate to it.
+#
 WORKDIR /src
 
-RUN apt-get update
 
+COPY ./package.json ./package-lock.json /src/
 
-COPY . /src
+RUN npm install
 
-RUN npm install --production
-
+COPY ./src /src/

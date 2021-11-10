@@ -1,6 +1,6 @@
-const brokers = ["localhost:9092", "localhost:9093"];
+const brokers = ["localhost:9092"];
 const clientId = "node-kafka";
-const topic = "topqtbsx";
+const topic = "topdbqdtbhsfssx";
 module.exports = {
     brokers,
     clientId,

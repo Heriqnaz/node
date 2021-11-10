@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node producer.js"
+    "start": "node src/producer.js"
   },
   "author": "",
   "license": "ISC",
