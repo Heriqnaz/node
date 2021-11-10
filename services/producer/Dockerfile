@@ -11,8 +11,5 @@ COPY . /src
 
 RUN npm install --production
 
-# Copy everything in the host folder into the working folder of the container.
-
-
 # Expose the specified port back to the host machine.
 EXPOSE 8080

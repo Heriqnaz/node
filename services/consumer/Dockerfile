@@ -6,10 +6,7 @@ WORKDIR /src
 RUN apt-get update
 
 
-# Copy over the package.json and lock file to the containers working directory.
 COPY . /src
 
 RUN npm install --production
-
-# Copy everything in the host folder into the working folder of the container.
 
