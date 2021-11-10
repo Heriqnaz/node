@@ -10,6 +10,7 @@ const produce = async (data) => {
     await producer.connect();
     await producer.send({
         topic,
+        ssl: true,
         messages: [
             {
                 value: data,
